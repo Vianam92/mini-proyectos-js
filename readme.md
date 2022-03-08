@@ -20,6 +20,4 @@
   
 5. piedra-papel-tijeras-lagarto-spock
 
-- Exercise URL: [GitHub o Trato](vianam92.github.io/piedra-papel-tijera-lagarto-spock/)
-
 6. pomodoro
