@@ -22,7 +22,7 @@
 5. Pomodoro
 
 - Exercise URL: [Pomodoro](https://vianam92.github.io/Pomodoro/)
-- Repo:(https://github.com/Vianam92/Pomodoro)
+- Repo:[link](https://github.com/Vianam92/Pomodoro)
    
 
 6. Input con Máscara
@@ -32,3 +32,5 @@
 7. Guardar Eventos
 
 - Consiste en crear una app para guardar eventos.
+- Exercise URL: [Calendario de Eventos](https://vianam92.github.io/Calendario-de-Eventos/)
+- Repo:[link](https://github.com/Vianam92/Calendario-de-Eventos)
