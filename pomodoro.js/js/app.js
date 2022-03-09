@@ -37,7 +37,7 @@ const renderTask = () => {
     <div class="completed">${
       task.completed
         ? `<span class="done">Done</span>`
-        : `<button class="start-button" data-id=${task.id}>start</button>`
+        : `<button class="start-button" data-id="${task.id}">start</button>`
     }</div>
     <div class="title">${task.title}</div>
     </section>`
@@ -63,13 +63,12 @@ const handlebtn = () => {
 const startButtonHandler = (id) => {
   console.log("comenzar el tiempo");
   console.log(tasks);
-  time = 0.5 * 60;
+  time = 25 * 60;
   current = id;
-  const taskId = tasks.findIndex(task => {
-    task.id === id;
-  });
-  console.log(taskId);
-  taskName.textContent = tasks[taskId].title;
+  const taskIndex = tasks.findIndex(task => 
+    task.id == id);
+  console.log(taskIndex);
+  taskName.textContent = tasks[taskIndex].title;
   timer = setInterval(() => {
     timerHandler(id);
   }, 1000);
@@ -87,9 +86,8 @@ const timerHandler = (id) => {
 };
 
 const markCompleted = (id) => {
-  const taskIndex = tasks.findIndex((task) => {
-    task.id === id;
-  });
+  const taskIndex = tasks.findIndex((task) => 
+    task.id == id);
   tasks[taskIndex].completed = true;
 };
 
