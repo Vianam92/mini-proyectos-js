@@ -34,3 +34,5 @@
 - Consiste en crear una app para guardar eventos.
 - Exercise URL: [Calendario de Eventos](https://vianam92.github.io/Calendario-de-Eventos/)
 - Repo:[link](https://github.com/Vianam92/Calendario-de-Eventos)
+
+8. Componente rating
