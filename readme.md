@@ -4,7 +4,7 @@
   
 1. Api-github-js
    
-- Consiste en crear una pequeña web app que consiste en presentar en pantalla el nombre público real de una usuaria de GitHub.
+- Consiste en crear una pequeña web app que presenta en pantalla el nombre público real de una usuaria de GitHub.
 - Exercise URL: [GitHub o Trato](vianam92.github.io/js-api-github/)
   
 2. Fetch array princesas disney
